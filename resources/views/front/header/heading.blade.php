@@ -42,7 +42,7 @@
 					<img src="img/cart.png" alt="">
 					<span>3</span>
 				</p>
-				<p class="header-cart-summ">$300</p>
+				<p class="header-cart-summ">৳3500</p>
 			</div>
 		</a>
 

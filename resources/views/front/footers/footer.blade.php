@@ -20,16 +20,16 @@
 			<ul>
 				<li><a href="#">Affiliate Program</a></li>
 				<li><a href="#">Privacy Policy</a></li>
-				<li><a href="#">Site Map</a></li>
-				<li><a href="#">Search Terms</a></li>
+				<li><a href="#">Shop Locations</a></li>
+				<li><a href="#">Warranty terms</a></li>
 			</ul>
 		</div>
 		<div class="footer-menu">
 			<p>Account & Orders</p>
 			<ul>
 				<li><a href="#">My Account</a></li>
-				<li><a href="#">My Garage</a></li>
-				<li><a href="#">Shopping Cart</a></li>
+				<li><a href="#">My Build </a></li>
+				<li><a href="#">Coupons</a></li>
 				<li><a href="#">Order Status</a></li>
 			</ul>
 		</div>
@@ -38,12 +38,12 @@
 			<p class="footer-msg">Our online support is available <a class="callback" href="#">Send us a message</a></p>
 			<ul class="footer-social">
 				<li>
-					<a rel="nofollow" target="_blank" href="http://facebook.com">
+					<a rel="nofollow" target="_blank" href="http://facebook.com/organtechnology.bd">
 						<i class="fa fa-facebook"></i>
 					</a>
 				</li>
 				<li>
-					<a rel="nofollow" target="_blank" href="mailto:email@email.com">
+					<a rel="nofollow" target="_blank" href="mailto:organtechnology19@gmail.com">
 						<i class="fa fa-paper-plane"></i>
 					</a>
 				</li>
@@ -63,12 +63,7 @@
 					</a>
 				</li>
 				<li>
-					<a rel="nofollow" target="_blank" href="http://google.com">
-						<i class="fa fa-google-plus"></i>
-					</a>
-				</li>
-				<li>
-					<a rel="nofollow" target="_blank" href="http://twitter.com">
+					<a rel="nofollow" target="_blank" id="shareallid" >
 						<i class="fa fa-share-alt"></i>
 					</a>
 				</li>
@@ -81,7 +76,17 @@
 
 	</div>
 	<div class="copyright">
-		<p class="cont">© 2016 Stockware All Right Received</p>
+		<p class="cont">Suite# 258-59,Level#2,Computer City Center (Multiplan), 69/71 New Elephant Road, Dhaka 1205</p>
 	</div>
 </footer>
 <!-- Footer - end -->
+
+<script>
+	document.getElementById('shareallid').onclick = function() {
+  navigator.clipboard.writeText('http://organtechnology.com.bd').then(function() {
+    alert('Link copied to clipboard!');
+  }, function(err) {
+    console.error('Could not copy text: ', err);
+  });
+}
+</script>
